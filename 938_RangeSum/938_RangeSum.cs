@@ -2,11 +2,11 @@
 
 namespace _938_RangeSum
 {
-    class Program
+    class RangeSum
     {
         static void Main(string[] args)
         {
-            Program p = new Program();
+            RangeSum p = new RangeSum();
 
             var rootNode = new TreeNode(10);
             var l1 = new TreeNode(5);
