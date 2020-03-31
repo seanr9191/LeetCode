@@ -5,10 +5,9 @@ namespace _1323_Max69
 {
     class Max69
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Max69 p = new Max69();
-            Console.WriteLine(p.Maximum69Number(9669));
+            Console.WriteLine(Maximum69Number(9669));
         }
 
         public int Maximum69Number(int num)

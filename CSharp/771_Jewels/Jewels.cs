@@ -6,10 +6,9 @@ namespace _771_Jewels
 {
     class Jewels
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Jewels p = new Jewels();
-            Console.WriteLine(p.NumJewelsInStones("aA", "aAAbbbb"));
+            Console.WriteLine(NumJewelsInStones("aA", "aAAbbbb"));
         }
 
         public int NumJewelsInStones(string J, string S)

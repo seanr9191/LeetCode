@@ -4,12 +4,11 @@ namespace _1342_Reduce
 {
     class Reduce
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Reduce p = new Reduce();
-            Console.WriteLine(p.NumberOfSteps(100));
-            Console.WriteLine(p.NumberOfSteps(14));
-            Console.WriteLine(p.NumberOfSteps(8));
+            Console.WriteLine(NumberOfSteps(100));
+            Console.WriteLine(NumberOfSteps(14));
+            Console.WriteLine(NumberOfSteps(8));
         }
 
         public int NumberOfSteps(int num)

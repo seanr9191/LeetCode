@@ -4,10 +4,9 @@ namespace _1281_Subtract
 {
     class Subtract
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Subtract p = new Subtract();
-            Console.WriteLine(p.SubtractProductAndSum(234));
+            Console.WriteLine(SubtractProductAndSum(234));
         }
 
         public int SubtractProductAndSum(int n)

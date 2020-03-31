@@ -4,10 +4,9 @@ namespace _1299_Replace
 {
     class Replace
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Replace p = new Replace();
-            Console.WriteLine("[{0}]", string.Join(", ", p.ReplaceElements(new int[] { 17, 18, 5, 4, 6, 1 })));
+            Console.WriteLine("[{0}]", string.Join(", ", ReplaceElements(new int[] { 17, 18, 5, 4, 6, 1 })));
         }
 
         public int[] ReplaceElements(int[] arr)

@@ -7,15 +7,14 @@ namespace _1290_binary
         /* Admittedly looked at @gleslie2008 solution and rewrote from memory */
         /* https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/discuss/474803/C-Recursive-O(n)-96-time-100-memory */
 
-        static void Main(string[] args)
+        public void run()
         {
-            Binary p = new Binary();
             ListNode head = new ListNode(1);
             ListNode tail = new ListNode(1);
             ListNode second = new ListNode(0);
             head.next = second;
             second.next = tail;
-            Console.WriteLine(p.GetDecimalValue(head));
+            Console.WriteLine(GetDecimalValue(head));
         }
 
         public int GetDecimalValue(ListNode head)

@@ -4,10 +4,9 @@ namespace _1108_Defang
 {
     class Defang
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Defang p = new Defang();
-            Console.WriteLine(p.DefangIPaddr("1.1.1.1"));
+            Console.WriteLine(DefangIPaddr("1.1.1.1"));
         }
 
         public string DefangIPaddr(string address)

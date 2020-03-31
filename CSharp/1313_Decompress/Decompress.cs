@@ -6,10 +6,9 @@ namespace _1313_Decompress
 {
     class Decompress
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Decompress p = new Decompress();
-            Console.WriteLine("[{0}]", string.Join(", ", p.DecompressRLElist(new int[] { 1, 2, 3, 4 })));
+            Console.WriteLine("[{0}]", string.Join(", ", DecompressRLElist(new int[] { 1, 2, 3, 4 })));
         }
 
         public int[] DecompressRLElist(int[] nums)

@@ -6,10 +6,9 @@ namespace _1365_Smaller
 {
     class Smaller
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Smaller p = new Smaller();
-            Console.WriteLine("[{0}]", string.Join(", ", p.SmallerNumbersThanCurrent(new int[] { 8, 1, 2, 2, 3 })));
+            Console.WriteLine("[{0}]", string.Join(", ", SmallerNumbersThanCurrent(new int[] { 8, 1, 2, 2, 3 })));
         }
 
         public int[] SmallerNumbersThanCurrent(int[] nums)

@@ -4,12 +4,10 @@ namespace _1266_Minimum
 {
     class Minimum
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Minimum p = new Minimum();
-
             var points = new int[][] { new int[] { 1, 1 }, new int[] { 3, 4 }, new int[] { -1, 0 } };
-            Console.WriteLine(p.MinTimeToVisitAllPoints(points));
+            Console.WriteLine(MinTimeToVisitAllPoints(points));
         }
 
         public int MinTimeToVisitAllPoints(int[][] points)

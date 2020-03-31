@@ -4,10 +4,8 @@ namespace _938_RangeSum
 {
     class RangeSum
     {
-        static void Main(string[] args)
+        public void run()
         {
-            RangeSum p = new RangeSum();
-
             var rootNode = new TreeNode(10);
             var l1 = new TreeNode(5);
             var r1 = new TreeNode(15);
@@ -20,8 +18,7 @@ namespace _938_RangeSum
             rootNode.left = l1;
             rootNode.right = r1;
 
-
-            Console.WriteLine(p.RangeSumBST(rootNode, 7, 15));
+            Console.WriteLine(RangeSumBST(rootNode, 7, 15));
         }
 
         public int RangeSumBST(TreeNode root, int L, int R)

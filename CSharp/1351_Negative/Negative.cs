@@ -4,10 +4,9 @@ namespace _1351_Negative
 {
     class Negative
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Negative p = new Negative();
-            Console.WriteLine(p.CountNegatives(new int[][] { 
+            Console.WriteLine(CountNegatives(new int[][] { 
                 new int[] { 4, 3, 2, -1 }, 
                 new int[] { 3, 2, 1, -1 }, 
                 new int[] { 1, 1, -1, -2 }, 

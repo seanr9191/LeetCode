@@ -5,11 +5,10 @@ namespace _1389_Target
 {
     class Target
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Target p = new Target();
-            Console.WriteLine("[{0}]", string.Join(", ", p.CreateTargetArray(new int[] { 0, 1, 2, 3, 4 }, new int[] { 0, 1, 2, 2, 1 })));
-            Console.WriteLine("[{0}]", string.Join(", ", p.CreateTargetArray(new int[] { 1, 2, 3, 4, 0 }, new int[] { 0, 1, 2, 3, 0 })));
+            Console.WriteLine("[{0}]", string.Join(", ", CreateTargetArray(new int[] { 0, 1, 2, 3, 4 }, new int[] { 0, 1, 2, 2, 1 })));
+            Console.WriteLine("[{0}]", string.Join(", ", CreateTargetArray(new int[] { 1, 2, 3, 4, 0 }, new int[] { 0, 1, 2, 3, 0 })));
         }
 
         public int[] CreateTargetArray(int[] nums, int[] index)

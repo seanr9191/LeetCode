@@ -4,13 +4,12 @@ namespace _1221_Balance
 {
     class Balance
     {
-        static void Main(string[] args)
+        public void run()
         {
-            Balance p = new Balance();
-            Console.WriteLine(p.BalancedStringSplit("RLRRLLRLRL"));
-            Console.WriteLine(p.BalancedStringSplit("RLLLLRRRLR"));
-            Console.WriteLine(p.BalancedStringSplit("LLLLRRRR"));
-            Console.WriteLine(p.BalancedStringSplit("RLRRRLLRLL"));
+            Console.WriteLine(BalancedStringSplit("RLRRLLRLRL"));
+            Console.WriteLine(BalancedStringSplit("RLLLLRRRLR"));
+            Console.WriteLine(BalancedStringSplit("LLLLRRRR"));
+            Console.WriteLine(BalancedStringSplit("RLRRRLLRLL"));
         }
 
         public int BalancedStringSplit(string s)
