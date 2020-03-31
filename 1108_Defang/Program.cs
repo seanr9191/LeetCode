@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LeetCode
+namespace _1108_Defang
 {
     class Program
     {
